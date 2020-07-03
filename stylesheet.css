@@ -5,7 +5,23 @@
 * {
   margin: 0;
 }
+@media screen and (max-width: 1060px) {
+  #primary {
+    width: 67%;
+  }
+  #secondary {
+    width: 100%; margin-left: 3%;
+  }
+}
 
+@media screen and (max-width: 768px) {
+  #primary {
+    width: 100%;
+  }
+  #secondary {
+    width: 100%; margin: 0; border: none;
+  }
+}
 .container {
   max-width: 1170px;
   width: 100%;
