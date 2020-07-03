@@ -22,7 +22,7 @@ header {
   z-index: 10;
 }
 
-.header-logo {
+.header-left {
   float: left;
   font-size: 40px;
   color: white;
